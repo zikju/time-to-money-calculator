@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "name": "Time to Money Calculator",
+  "description": "This handy extension makes it easy for any freelancer to calculate his or her total earnings based on the number of hours and minutes worked.",
+  "author": "Pavel Prijemskij",
+
+  "manifest_version": 3,
+
+  "icons": {
+    "16": "icons/icon-16x16.png",
+    "48": "icons/icon-48x48.png",
+    "128": "icons/icon-128x128.png"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "action": {
+    "default_popup": "www/index.html#/popup"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": [ "*" ],
+      "matches": [ "*://*/*" ]
+    }
+  ]
+}

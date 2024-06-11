@@ -1,0 +1,74 @@
+/** -----------------------
+| FONTS
+----------------------- */
+@import "app.fonts";
+@import "app.light";
+@import "app.dark";
+
+
+
+/** -----------------------
+| ROOT STYLES
+----------------------- */
+::selection {
+  background: $accent;
+  color: #fff;
+}
+
+
+
+/** -----------------------
+| BROWSER SCROLLBAR
+----------------------- */
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 18px;
+  background: transparent;
+  z-index: 12;
+  overflow: visible;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 18px;
+  background-color: transparentize($grey-8, 0.2);
+  border-radius: 8px;
+  z-index: 12;
+  border: 4px solid rgba(0,0,0,0);
+  background-clip: padding-box;
+  margin: 4px;
+  min-height: 32px;
+  min-width: 32px;
+  cursor: pointer;
+  &:hover {
+    background-color: transparentize($accent, 0.3);
+  }
+}
+
+
+
+/** -----------------------
+| LAYOUT STYLES
+----------------------- */
+.constrained-width {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  color: inherit;
+  font-weight: 500;
+}
+
+
+
+/** -----------------------
+| OPACITY HELPER
+----------------------- */
+@for $i from 0 through 10 {
+  .opacity-#{$i * 10} {
+    opacity: calc($i / 10);
+  }
+}
