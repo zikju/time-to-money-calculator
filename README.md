@@ -32,7 +32,7 @@ This web-application allows users to easily calculate their total earnings based
 # Live-examples
 
 ### SPA Web
-- [https://time2money.zq.lt](https://timetomoney.zq.lt/#/)
+- [https://time2money.zq.lt](https://time2money.zq.lt/#/)
 
 ### Chrome Browser Extension
 - _Coming Soon_
