@@ -1,14 +1,44 @@
+<!-- TOC -->
+* [Time to Money Calculator](#time-to-money-calculator)
+* [Screenshots](#screenshots)
+* [Live-examples](#live-examples)
+    * [SPA Web](#spa-web)
+    * [Chrome Browser Extension](#chrome-browser-extension)
+* [Magic under the hood](#magic-under-the-hood)
+* [Installation](#installation)
+    * [Clone this repository](#clone-this-repository)
+    * [Install the dependencies](#install-the-dependencies)
+* [Development](#development)
+    * [Single Page Application](#single-page-application)
+    * [Chrome Browser Extension](#chrome-browser-extension-1)
+* [Build](#build)
+    * [Single Page Application](#single-page-application-1)
+    * [Chrome Browser Extension](#chrome-browser-extension-2)
+<!-- TOC -->
+
+---
+
 # Time to Money Calculator
 
 This web-application allows users to easily calculate their total earnings based on the number of hours and minutes worked.
 
+
+
+# Screenshots
+| ![Screenshot (Dark Version)](https://github.com/zikju/time-to-money-calculator/blob/main/docs/assets/screenshot-dark.jpg?raw=true) | ![Screenshot (Dark Version)](https://github.com/zikju/time-to-money-calculator/blob/main/docs/assets/screenshot-light.jpg?raw=true) |
+|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+
+
 # Live-examples
 
-### SPA Web:
+### SPA Web
 Link: [https://time2money.zq.lt](https://timetomoney.zq.lt/#/)
+Link #2: [https://timetomoney.zq.lt](https://timetomoney.zq.lt/#/)
 
-### Chrome Browser Extension:
+### Chrome Browser Extension
 Link: _Coming Soon_
+
+---
 
 # Magic under the hood
 
