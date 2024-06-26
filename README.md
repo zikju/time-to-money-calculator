@@ -35,7 +35,7 @@ This web-application allows users to easily calculate their total earnings based
 - [https://time2money.zq.lt](https://time2money.zq.lt/#/)
 
 ### Chrome Browser Extension
-- _Coming Soon_
+- [Time to Money Calculator](https://chromewebstore.google.com/detail/time-to-money-calculator/hmlelnagnhidpaifchocofnbikmpipmb?hl=en)
 
 ---
 
